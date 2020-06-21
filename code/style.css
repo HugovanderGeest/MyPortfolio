@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#pagina {
+  display: grid;
+  grid-template-areas: "groen groen groen wit wit wit ";
+
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.groen {
+  float: left;
+  height: 100vh;
+  width: 70vh;
+  background-color: #cde9b2;
+}
+
+.wit {
+  float: right;
+  height: 100vh;
+  width: 100vh;
+  background-color: white;
+}
+
+.hugo {
+  margin-left: 10px;
+  display: flex;
+  text-align: center;
+  float: center;
+  justify-content: center;
+}
