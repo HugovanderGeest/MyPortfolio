@@ -1,0 +1,504 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.mooi {
+  font-family: "Pacifico", cursive;
+}
+
+.dik {
+  font-family: "Fredoka One", cursive;
+  color: white;
+  font-size: 50px;
+}
+
+.normaal {
+  font-family: "Didact Gothic", sans-serif;
+}
+
+.textmargin {
+  margin: 100px;
+}
+
+.overmij {
+  height: 14vh;
+  background-color: #5c6b4f;
+}
+
+.Personalia {
+  height: 14vh;
+  background-color: #6a7b5b;
+}
+
+.hobbysenIntresses {
+  height: 14vh;
+  background-color: #7d8f6c;
+}
+
+.Vaardigheden {
+  height: 14vh;
+  background-color: #889e76;
+}
+
+.werkervaring {
+  height: 14vh;
+  background-color: #94ab7f;
+}
+
+.mijnwerk {
+  height: 14vh;
+  background-color: #b7d49f;
+}
+
+.contact {
+  height: 14vh;
+  background-color: #c3ddad;
+}
+
+/* FOOTER */
+
+.footer {
+  padding: 5px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #cde9b2;
+  color: white;
+  text-align: center;
+}
+
+.menu {
+  width: 40px;
+  float: left;
+}
+
+.pijl {
+  margin-left: 65px;
+  width: 40px;
+  float: center;
+}
+
+.snapchat,
+.instagram,
+.linkedin {
+  float: right;
+  width: 40px;
+}
+
+.snapchat {
+  margin-right: 10px;
+}
+/* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
+
+@media screen and (max-width: 400px) {
+  .groen {
+    width: 100%;
+    height: 95%;
+  }
+
+  .backimg {
+    transform: scale(0);
+  }
+
+  .overmij {
+    position: absolute;
+    margin: 10px;
+    left: 0px;
+    top: 0px;
+    float: left;
+  }
+
+  .hugoimg {
+    width: 100vw;
+    position: absolute;
+    float: left;
+    top: 0px;
+    left: 0;
+  }
+
+  .HugovanderGeest {
+    color: white;
+    margin: 10px;
+    position: absolute;
+    float: left;
+    left: 0px;
+    top: 450px;
+  }
+
+  .MediaDeveloperDesigner {
+    font-size: 35px;
+    margin: 10px;
+    position: absolute;
+    float: center;
+    left: 0px;
+    top: 500px;
+  }
+
+  .koptext {
+    font-size: 22px;
+    margin: 10px;
+    position: absolute;
+    float: center;
+    left: 0px;
+    top: 1020px;
+  }
+
+  .streep1 {
+    transform: scale(0);
+  }
+
+  .block1 {
+    transform: scale(0);
+  }
+
+  .Meerovermij {
+    position: absolute;
+    top: 680px;
+    float: left;
+    left: 105px;
+  }
+
+  .phpjs {
+    padding: 30px;
+    font-size: 26px;
+    margin: 10px;
+    position: absolute;
+    right: 70px;
+    top: 790px;
+  }
+
+  .Adobbe {
+    font-size: 26px;
+    position: absolute;
+    right: 70px;
+    top: 890px;
+  }
+
+  .html {
+    font-size: 26px;
+    margin: 10px;
+    position: absolute;
+    right: 70px;
+    top: 940px;
+  }
+
+  .weg {
+    background-color: #c1dba8;
+    border-radius: 25px;
+  }
+  /* EINDEN OVERMIJ */
+
+  /* BEGIN PERSONALIA */
+  .section2 {
+    height: 95vh;
+  }
+
+  .groen2 {
+    background-color: white;
+  }
+
+  .PERSONALIA {
+    transform: scale(0);
+  }
+
+  .backimg2 {
+    transform: scale(0);
+  }
+
+  .person {
+    transform: scale(0);
+  }
+
+  .home {
+    transform: scale(0);
+  }
+
+  .phone {
+    transform: scale(0);
+  }
+
+  .mail {
+    transform: scale(0);
+  }
+
+  .agenda {
+    transform: scale(0);
+  }
+
+  .persontext {
+    transform: scale(0);
+  }
+
+  .hometext {
+    transform: scale(0);
+  }
+
+  .phonetext {
+    transform: scale(0);
+  }
+
+  .mailtext {
+    transform: scale(0);
+  }
+
+  .agendatext {
+    transform: scale(0);
+  }
+
+  .block2 {
+    transform: scale(0);
+  }
+
+  .streep2 {
+    transform: scale(0);
+  }
+  /* EINDEN PERSONALIA */
+
+  /* BEGIN Hobby's en Intresses */
+
+  .section3 {
+    height: 95vh;
+  }
+
+  .groen3 {
+    height: 95vh;
+
+    background-color: #cde9b2;
+    width: 60%;
+  }
+
+  .hobbyseninteresses {
+    color: white;
+    font-size: 45px;
+    float: left;
+  }
+
+  .backimg3 {
+    transform: scale(0);
+  }
+
+  .hobbysenintressestext {
+    font-size: 15px;
+    top: 1710px;
+    margin-left: 15px;
+  }
+
+  .tijd1 {
+    margin: 70px;
+  }
+
+  .tijd2 {
+    margin: 68px;
+  }
+
+  .tijd3 {
+    margin: 70px;
+  }
+
+  .tijd4 {
+    margin: 30px;
+  }
+
+  .tijd5 {
+    margin: 70px;
+  }
+
+  /* EINDEN Hobby's en Intresses */
+
+  /* BEGIN VAARDIGHEDEN*/
+  .section4 {
+    height: 100vh;
+  }
+
+  .groen4 {
+    height: 100vh;
+
+    background-color: #cde9b2;
+    width: 90%;
+  }
+
+  .Vaardigheden {
+    right: -30px;
+    font-size: 40px;
+  }
+
+  .backimg4 {
+    transform: scale(0);
+  }
+
+  .vol {
+    transform: scale(0);
+  }
+
+  .leeg {
+    transform: scale(0);
+  }
+
+  .codetab {
+    margin-top: 150px;
+  }
+
+  .wittext {
+    color: white;
+  }
+
+  .adobetab {
+    transform: scale(0);
+  }
+
+  .talentab {
+    transform: scale(0);
+  }
+
+  /* EINDEN VAARDIGHEDEN*/
+
+  /*  BEGIN werkervaring */
+  .section5 {
+    height: 100vh;
+  }
+
+  .groen5 {
+    transform: scale(0);
+  }
+
+  .WERKERVARING {
+    color: white;
+    font-size: 30px;
+    float: left;
+    margin: 100px 55px;
+    left: 0px;
+    position: absolute;
+  }
+
+  .backimg3 {
+    transform: scale(0);
+  }
+
+  .WERKERVARINGtext {
+    transform: scale(0);
+  }
+
+  /*  EINDEN werkervaring */
+
+  /*  BEGIN CONTACT */
+  .section6 {
+    height: 100vh;
+  }
+
+  .groen6 {
+    transform: scale(0);
+  }
+
+  .contact {
+    transform: scale(0);
+  }
+
+  .backimg4 {
+    transform: scale(0);
+  }
+
+  .form {
+    transform: scale(0);
+  }
+
+  .formtext {
+    transform: scale(0);
+  }
+
+  .formlabel {
+    transform: scale(0);
+  }
+
+  .formlabel:hover,
+  .formbox:hover,
+  .formsubmit:hover {
+  }
+
+  .formbox {
+    transform: scale(0);
+  }
+
+  .formsubmit {
+    transform: scale(0);
+  }
+
+  .phonetext2 {
+    transform: scale(0);
+  }
+
+  .mailtext2 {
+    transform: scale(0);
+  }
+
+  .phone2 {
+    transform: scale(0);
+  }
+
+  .mail2 {
+    transform: scale(0);
+  }
+
+  /* 
+  
+  
+   */
+  /*  EINDEN CONTACT */
+
+  /* FOOTER */
+
+  .footer {
+    z-index: 1;
+    padding: 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    background-color: #cde9b2;
+    color: white;
+    text-align: center;
+  }
+
+  .menu {
+    width: 40px;
+    float: left;
+  }
+
+  .pijl {
+    margin-left: 65px;
+    width: 40px;
+    float: center;
+  }
+
+  .snapchat,
+  .instagram,
+  .linkedin {
+    float: right;
+    width: 40px;
+  }
+
+  .snapchat {
+    margin-right: 10px;
+  }
+}

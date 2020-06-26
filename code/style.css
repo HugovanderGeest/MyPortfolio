@@ -1,34 +1,1127 @@
 * {
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
-#pagina {
-  display: grid;
-  grid-template-areas: "groen groen groen wit wit wit ";
+.mooi {
+  font-family: "Pacifico", cursive;
+}
 
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  text-align: center;
+.dik {
+  font-family: "Fredoka One", cursive;
+}
+
+.normaal {
+  font-family: "Didact Gothic", sans-serif;
+}
+
+.textmargin {
+  margin: 100px;
+}
+
+/* BEGIN Over Mij */
+
+.groentext {
+  color: #cde9b2;
+}
+
+.spatie {
+  margin-left: 50px;
 }
 
 .groen {
   float: left;
   height: 100vh;
-  width: 70vh;
+  width: 80vh;
   background-color: #cde9b2;
 }
 
-.wit {
+.hugoimg {
+  position: absolute;
+  width: 300px;
+  left: 400px;
+  top: 100px;
+}
+
+.backimg {
+  position: absolute;
+  width: 300px;
+  left: 50px;
+  top: 100px;
+}
+
+.overmij {
+  color: white;
+  font-size: 70px;
+  top: 13%;
+  left: 1%;
+  position: absolute;
+}
+
+.HugovanderGeest {
+  font-size: 30px;
+  top: 13%;
+  left: 50%;
+  position: absolute;
+}
+
+.MediaDeveloperDesigner {
+  font-size: 30px;
+  top: 24%;
+  left: 50%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.koptext {
+  margin-right: 80px;
+  font-size: 20px;
+  top: 31%;
+  left: 50%;
+  position: absolute;
+}
+
+.streep1 {
+  position: absolute;
+  top: 27%;
+  float: right;
+  right: 6%;
+  padding: 5px 150px;
+  background-color: #cde9b2;
+}
+
+.block1 {
+  position: absolute;
+  top: 5%;
+  float: right;
+  right: 0;
+  padding: 50px 30px;
+  background-color: #cde9b2;
+  box-shadow: -2px 2px rgba(0, 0, 0, 0.082);
+}
+
+.Meerovermij {
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  top: 54%;
+  float: right;
+  right: 6%;
+  border-radius: 50px;
+  position: absolute;
+  background-color: #b1c89b;
+  border: transparent;
+  box-shadow: -2px 2px rgba(0, 0, 0, 0.082);
+}
+
+.Meerovermij:hover {
+  transition: 0.5s;
+  box-shadow: none;
+}
+
+.phpjs {
+  font-size: 30px;
+  position: absolute;
+  float: right;
+  right: 37%;
+  top: 63%;
+  overflow: hidden;
+}
+
+.Adobbe {
+  font-size: 30px;
+  position: absolute;
+  float: right;
+  right: 36%;
+  top: 71%;
+  overflow: hidden;
+}
+
+.html {
+  font-size: 30px;
+  position: absolute;
+  float: right;
+  right: 37%;
+  top: 79%;
+  overflow: hidden;
+}
+/* EINDEN OVERMIJ */
+
+/* BEGIN PERSONALIA */
+.section2 {
+  height: 100vh;
+}
+
+.groen2 {
   float: right;
   height: 100vh;
-  width: 100vh;
+  width: 60vh;
+  background-color: #cde9b2;
+}
+
+.PERSONALIA {
+  color: white;
+  font-size: 70px;
+  position: absolute;
+  float: right;
+  margin: 50px;
+  right: 16%;
+}
+
+.backimg2 {
+  position: absolute;
+  float: right;
+  right: 0px;
+  margin: 200px;
+}
+
+.person {
+  width: 8%;
+  position: absolute;
+  float: left;
+  left: 0px;
+  margin: 45px 200px;
+}
+
+.home {
+  width: 8%;
+  position: absolute;
+  float: left;
+  left: 0px;
+  margin: 185px 200px;
+}
+
+.phone {
+  width: 8%;
+  position: absolute;
+  float: left;
+  left: 0px;
+  margin: 325px 200px;
+}
+
+.mail {
+  width: 8%;
+  position: absolute;
+  float: left;
+  left: 0px;
+  margin: 465px 200px;
+}
+
+.agenda {
+  width: 8%;
+  position: absolute;
+  float: left;
+  left: 0px;
+  margin: 605px 200px;
+}
+
+.persontext {
+  font-size: 30px;
+  position: absolute;
+  float: left;
+  left: 0px;
+  margin: 85px 400px;
+}
+
+.hometext {
+  font-size: 30px;
+  position: absolute;
+  float: left;
+  left: 0px;
+  margin: 225px 400px;
+}
+
+.phonetext {
+  font-size: 30px;
+  position: absolute;
+  float: left;
+  left: 0px;
+  margin: 365px 400px;
+}
+
+.mailtext {
+  font-size: 30px;
+  position: absolute;
+  float: left;
+  left: 0px;
+  margin: 505px 400px;
+}
+
+.agendatext {
+  font-size: 30px;
+  position: absolute;
+  float: left;
+  left: 0px;
+  margin: 655px 400px;
+}
+
+.block2 {
+  position: absolute;
+  margin: 100px 0px;
+  float: right;
+  right: 0;
+  padding: 50px 30px;
+  background-color: #d9f3bf;
+  box-shadow: -2px 2px rgba(0, 0, 0, 0.082);
+}
+
+.streep2 {
+  position: absolute;
+  float: left;
+  left: 0px;
+  margin: 150px 100px;
+  padding: 150px 5px;
+  background-color: #cde9b2;
+}
+/* EINDEN PERSONALIA */
+
+/* BEGIN Hobby's en Intresses */
+
+.section3 {
+  height: 100vh;
+}
+
+.groen3 {
+  float: left;
+  height: 100vh;
+  width: 40vh;
+  background-color: #cde9b2;
+}
+
+.hobbyseninteresses {
+  color: white;
+  font-size: 70px;
+  float: left;
+  margin: 100px 55px;
+  left: 0px;
+  position: absolute;
+}
+
+.backimg3 {
+  position: absolute;
+  float: left;
+  left: 0px;
+  margin: 250px 100px;
+}
+
+.hobbysenintressestext {
+  margin: 100px 0px;
+  font-size: 35px;
+  position: absolute;
+  float: right;
+  right: 0px;
+}
+
+.tijd1 {
+  margin: 150px;
+}
+
+.tijd2 {
+  margin: 150px;
+}
+
+.tijd3 {
+  margin: 235px;
+}
+
+.tijd4 {
+  margin: 65px;
+}
+
+.tijd5 {
+  margin: 160px;
+}
+
+/* EINDEN Hobby's en Intresses */
+
+/* BEGIN VAARDIGHEDEN*/
+.section4 {
+  height: 110vh;
+}
+
+.groen4 {
+  float: right;
+  height: 110vh;
+  width: 50vw;
+  background-color: #cde9b2;
+}
+
+.Vaardigheden {
+  z-index: 1;
+  color: white;
+  font-size: 70px;
+  float: right;
+  margin: 100px 55px;
+  right: 0;
+  position: absolute;
+}
+
+.backimg4 {
+  position: absolute;
+  float: right;
+  right: 0px;
+  margin: 250px 100px;
+}
+
+.vol {
+  display: inline-block;
+  margin: 5px;
+  padding: 20px;
+  border-radius: 100%;
+  background-color: #b1c89b;
+}
+
+.leeg {
+  display: inline-block;
+  margin: 5px;
+  padding: 15px;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #b1c89b;
+  border-width: 5px;
   background-color: white;
 }
 
-.hugo {
-  margin-left: 10px;
-  display: flex;
-  text-align: center;
+.codetab {
+  font-size: 40px;
+  position: absolute;
+  float: left;
+  left: 0;
+  margin: 50px;
+  overflow: hidden;
+}
+
+.adobetab {
+  font-size: 40px;
+  position: absolute;
+  float: left;
+  left: 0;
+  margin-top: 300px;
+  margin-left: 50px;
+  overflow: hidden;
+}
+
+.talentab {
+  font-size: 40px;
+  position: absolute;
+  float: left;
+  left: 0;
+  margin-top: 550px;
+  margin-left: 50px;
+  overflow: hidden;
+}
+
+/* EINDEN VAARDIGHEDEN*/
+
+/*  BEGIN werkervaring */
+.section5 {
+  height: 100vh;
+}
+
+.groen5 {
+  float: left;
+  height: 100vh;
+  width: 80vh;
+  background-color: #cde9b2;
+}
+
+.WERKERVARING {
+  color: white;
+  font-size: 70px;
+  float: left;
+  margin: 100px 55px;
+  left: 0px;
+  position: absolute;
+}
+
+.werkmargin1 {
+  margin: 200px;
+}
+
+.werkmargin2 {
+  margin: 215px;
+}
+
+.werkmargin3 {
+  margin: 250px;
+}
+
+.werkmargin4 {
+  margin: 240px;
+}
+
+.backimg3 {
+  position: absolute;
+  float: left;
+  left: 0px;
+  margin: 250px 100px;
+}
+
+.WERKERVARINGtext {
+  margin: 100px 0px;
+  font-size: 35px;
+  position: absolute;
+  float: right;
+  right: 0px;
+}
+
+/*  EINDEN werkervaring */
+
+/*  BEGIN CONTACT */
+.section6 {
+  height: 100vh;
+}
+
+.groen6 {
+  float: right;
+  height: 100%;
+  width: 100%;
+  background-color: #c1dba8;
+}
+
+.contact {
+  color: white;
+  font-size: 70px;
+  float: right;
+  margin: 100px 55px;
+  right: 0px;
+  position: absolute;
+  z-index: 1;
+}
+
+.backimg4 {
+  position: absolute;
+  float: right;
+  right: 0px;
+  margin: 130px 100px;
+}
+
+.form {
+  position: absolute;
   float: center;
-  justify-content: center;
+  right: 500px;
+  margin-top: 50px;
+}
+
+.formtext {
+  font-size: 30px;
+  color: white;
+}
+
+.formlabel {
+  font-size: 30px;
+  border-radius: 50px;
+  padding: 20px 50px;
+  border: none;
+  margin-bottom: 30px;
+  box-shadow: -2px 2px rgba(0, 0, 0, 0.082);
+}
+
+.formlabel:hover,
+.formbox:hover,
+.formsubmit:hover {
+  box-shadow: none;
+}
+
+.formbox {
+  font-size: 30px;
+  padding: 20px 50px;
+  border: none;
+  margin-bottom: 30px;
+  box-shadow: -2px 2px rgba(0, 0, 0, 0.082);
+}
+
+.formsubmit {
+  color: white;
+  font-size: 30px;
+  border-radius: 50px;
+  padding: 10px 50px;
+  border: none;
+  margin-bottom: 30px;
+  background-color: #cde9b2;
+  box-shadow: -2px 2px rgba(0, 0, 0, 0.082);
+}
+
+.phonetext2 {
+  font-size: 30px;
+  position: absolute;
+  float: left;
+  left: 0px;
+  margin: 200px 170px;
+}
+
+.mailtext2 {
+  font-size: 30px;
+  position: absolute;
+  float: left;
+  left: 0px;
+  margin: 330px 170px;
+}
+
+.phone2 {
+  width: 8%;
+  position: absolute;
+  float: left;
+  left: 0px;
+  margin: 160px 30px;
+}
+
+.mail2 {
+  width: 8%;
+  position: absolute;
+  float: left;
+  left: 0px;
+  margin: 290px 30px;
+}
+
+/* 
+
+
+ */
+/*  EINDEN CONTACT */
+
+/* BEGIN mijn werk */
+
+.section7 {
+  height: 100vh;
+}
+
+.groen7 {
+  float: right;
+  height: 100%;
+  width: 40%;
+  background-color: #c1dba8;
+}
+
+.Mijnwerk {
+  color: white;
+  font-size: 70px;
+  float: right;
+  margin: 0px 400px;
+  right: 0px;
+  position: absolute;
+  z-index: 1;
+}
+
+.backimg6 {
+  position: absolute;
+  float: right;
+  right: 0px;
+  margin: -600px 100px;
+}
+
+.slide {
+  background-color: #c1dba8;
+  margin-bottom: 100px;
+}
+
+/* EINDEN Mijn werk */
+
+/* FOOTER */
+
+.footer {
+  padding: 5px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #cde9b2;
+  color: white;
+  text-align: center;
+}
+
+.menu {
+  width: 40px;
+  float: left;
+}
+
+.pijl {
+  margin-left: 65px;
+  width: 40px;
+  float: center;
+}
+
+.snapchat,
+.instagram,
+.linkedin {
+  float: right;
+  width: 40px;
+}
+
+.snapchat {
+  margin-right: 10px;
+}
+/* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
+
+@media screen and (max-width: 400px) {
+  .groen {
+    width: 100%;
+    height: 95%;
+  }
+
+  .backimg {
+    transform: scale(0);
+  }
+
+  .overmij {
+    position: absolute;
+    margin: 10px;
+    left: 0px;
+    top: 0px;
+    float: left;
+  }
+
+  .hugoimg {
+    width: 100vw;
+    position: absolute;
+    float: left;
+    top: 0px;
+    left: 0;
+  }
+
+  .HugovanderGeest {
+    color: white;
+    margin: 10px;
+    position: absolute;
+    float: left;
+    left: 0px;
+    top: 450px;
+  }
+
+  .MediaDeveloperDesigner {
+    font-size: 35px;
+    margin: 10px;
+    position: absolute;
+    float: center;
+    left: 0px;
+    top: 500px;
+  }
+
+  .koptext {
+    font-size: 21px;
+    margin: 10px;
+    position: absolute;
+    float: center;
+    left: 0px;
+    top: 1020px;
+  }
+
+  .streep1 {
+    transform: scale(0);
+  }
+
+  .block1 {
+    transform: scale(0);
+  }
+
+  .Meerovermij {
+    position: absolute;
+    top: 680px;
+    float: left;
+    left: 105px;
+  }
+
+  .phpjs {
+    padding: 30px;
+    font-size: 26px;
+    margin: 10px;
+    position: absolute;
+    right: 70px;
+    top: 790px;
+  }
+
+  .Adobbe {
+    font-size: 26px;
+    position: absolute;
+    right: 70px;
+    top: 890px;
+  }
+
+  .html {
+    font-size: 26px;
+    margin: 10px;
+    position: absolute;
+    right: 70px;
+    top: 940px;
+  }
+
+  .weg {
+    background-color: #c1dba8;
+    border-radius: 25px;
+  }
+  /* EINDEN OVERMIJ */
+
+  /* BEGIN PERSONALIA */
+  .section2 {
+    height: 95vh;
+  }
+
+  .groen2 {
+    background-color: white;
+  }
+
+  .PERSONALIA {
+    transform: scale(0);
+  }
+
+  .backimg2 {
+    transform: scale(0.3);
+  }
+
+  .person {
+    transform: scale(0);
+  }
+
+  .home {
+    transform: scale(0);
+  }
+
+  .phone {
+    transform: scale(0);
+  }
+
+  .mail {
+    transform: scale(0);
+  }
+
+  .agenda {
+    transform: scale(0);
+  }
+
+  .persontext {
+    transform: scale(0);
+  }
+
+  .hometext {
+    transform: scale(0);
+  }
+
+  .phonetext {
+    transform: scale(0);
+  }
+
+  .mailtext {
+    transform: scale(0);
+  }
+
+  .agendatext {
+    transform: scale(0);
+  }
+
+  .block2 {
+    transform: scale(0);
+  }
+
+  .streep2 {
+    transform: scale(0);
+  }
+  /* EINDEN PERSONALIA */
+
+  /* BEGIN Hobby's en Intresses */
+
+  .section3 {
+    height: 95vh;
+  }
+
+  .groen3 {
+    height: 95vh;
+
+    background-color: #cde9b2;
+    width: 60%;
+  }
+
+  .hobbyseninteresses {
+    color: white;
+    font-size: 45px;
+    float: left;
+  }
+
+  .backimg3 {
+    transform: scale(0);
+  }
+
+  .hobbysenintressestext {
+    font-size: 15px;
+    top: 1710px;
+    margin-left: 15px;
+  }
+
+  .tijd1 {
+    margin: 70px;
+  }
+
+  .tijd2 {
+    margin: 68px;
+  }
+
+  .tijd3 {
+    margin: 70px;
+  }
+
+  .tijd4 {
+    margin: 30px;
+  }
+
+  .tijd5 {
+    margin: 70px;
+  }
+
+  /* EINDEN Hobby's en Intresses */
+
+  /* BEGIN VAARDIGHEDEN*/
+  .section4 {
+    height: 100vh;
+  }
+
+  .groen4 {
+    height: 100vh;
+
+    background-color: #cde9b2;
+    width: 90%;
+  }
+
+  .Vaardigheden {
+    right: -30px;
+    margin-top: 10px;
+    font-size: 40px;
+  }
+
+  .backimg4 {
+    transform: scale(0.3);
+  }
+
+  .vol {
+    transform: scale(0);
+  }
+
+  .leeg {
+    transform: scale(0);
+  }
+
+  .codetab {
+    font-size: 25px;
+    position: absolute;
+    margin: 70px;
+  }
+
+  .wittext {
+    color: white;
+  }
+
+  .adobetab {
+    font-size: 25px;
+    position: absolute;
+    margin: 280px 70px;
+  }
+
+  .talentab {
+    font-size: 25px;
+    position: absolute;
+    margin: 540px 70px;
+  }
+
+  /* EINDEN VAARDIGHEDEN*/
+
+  /*  BEGIN werkervaring */
+  .section5 {
+    height: 100vh;
+  }
+
+  .groen5 {
+    height: 100vh;
+
+    background-color: #cde9b2;
+    width: 35%;
+  }
+
+  .WERKERVARING {
+    color: #cde9b2;
+    font-size: 30px;
+    float: left;
+    margin: 100px 155px;
+    left: 0px;
+    position: absolute;
+  }
+
+  .backimg3 {
+    transform: scale(0.3);
+  }
+
+  .backimg6 {
+    transform: scale(0.3);
+  }
+
+  .WERKERVARINGtext {
+    position: absolute;
+    left: 0;
+    color: black;
+    margin: 200px 10px;
+    font-size: 23px;
+  }
+
+  .werkmargin1 {
+    position: absolute;
+    margin: 0px 60px;
+  }
+
+  .werkmargin2 {
+    z-index: 1;
+    position: absolute;
+    margin: 0px 70px;
+  }
+
+  .werkmargin3 {
+    position: absolute;
+    margin: 0px 90px;
+  }
+
+  .werkmargin4 {
+    position: absolute;
+    margin: 0px 90px;
+  }
+
+  /*  EINDEN werkervaring */
+  /*  BEGIN MIJN WERK */
+
+  .section7 {
+    height: 100vh;
+  }
+
+  .groen7 {
+    float: right;
+    height: 100%;
+    width: 40%;
+    background-color: #c1dba8;
+  }
+
+  .slide {
+    background-color: #c1dba8;
+    padding: 10px 0px;
+    margin-bottom: 0px;
+  }
+  /*  EINDEN MIJN WERK */
+
+  /*  BEGIN CONTACT */
+  .section6 {
+    height: 100vh;
+  }
+
+  .groen6 {
+  }
+
+  .contact {
+  }
+
+  .backimg4 {
+    transform: scale(0.3);
+  }
+
+  .form {
+    transform: scale(0);
+  }
+
+  .formtext {
+    transform: scale(0);
+  }
+
+  .formlabel {
+    transform: scale(0);
+  }
+
+  .formlabel:hover,
+  .formbox:hover,
+  .formsubmit:hover {
+  }
+
+  .formbox {
+    transform: scale(0);
+  }
+
+  .formsubmit {
+    transform: scale(0);
+  }
+
+  .phonetext2 {
+    margin: 280px 150px;
+  }
+
+  .mailtext2 {
+    font-size: 20px;
+    margin: 430px 150px;
+  }
+
+  .phone2 {
+    position: absolute;
+    margin: 250px 20px;
+    width: 100px;
+  }
+
+  .mail2 {
+    position: absolute;
+    margin: 400px 20px;
+    width: 100px;
+  }
+
+  /* 
+  
+  
+   */
+  /*  EINDEN CONTACT */
+
+  /* FOOTER */
+
+  .footer {
+    z-index: 1;
+    padding: 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    background-color: #cde9b2;
+    color: white;
+    text-align: center;
+  }
+
+  .menu {
+    width: 40px;
+    float: left;
+  }
+
+  .pijl {
+    margin-left: 65px;
+    width: 40px;
+    float: center;
+  }
+
+  .snapchat,
+  .instagram,
+  .linkedin {
+    float: right;
+    width: 40px;
+  }
+
+  .snapchat {
+    margin-right: 10px;
+  }
 }
